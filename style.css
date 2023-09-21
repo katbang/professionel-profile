@@ -46,8 +46,9 @@ img {
 }
 button {
   font-size: 20px;
-  border: solid 3px;
+  border: solid 3px black;
   cursor: pointer;
+  color:black;
 }
 .grid_4-3-3 {
   border-style: solid;
