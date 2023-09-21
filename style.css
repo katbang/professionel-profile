@@ -40,6 +40,15 @@ img {
   border: solid;
   border-width: 0px 0px 0px var(--border-width);
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  font-size: 20px;
+  border: solid 3px;
+  cursor: pointer;
+}
 .grid_4-3-3 {
   border-style: solid;
   border-width: var(--border-width) 0px;
@@ -82,7 +91,12 @@ img {
   li {
     font-size: var(--size-s);
   }
-
+  button {
+    font-size: 27px;
+    margin: 30px 30px 40px 50px;
+    max-height: 45px;
+    width: 55px;
+  }
   .grid_4-3-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -154,6 +168,12 @@ img {
     font-weight: 600;
     max-width: 30%;
     margin: 60px 0px 40px 50px;
+  }
+  button {
+    font-size: 40px;
+    margin: 70px 30px 40px 50px;
+    max-height: 55px;
+    width: 65px;
   }
   h2 {
     font-size: 30px;
