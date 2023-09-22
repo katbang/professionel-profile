@@ -97,7 +97,8 @@ button {
     margin: 30px 30px 40px 0px;
     width: 55px;
     height: 55px;
-    text-align: center;
+    text-align: start;
+    padding-left: 8px;
   }
   .grid_4-3-3 {
     display: grid;
