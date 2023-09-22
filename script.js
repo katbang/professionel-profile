@@ -13,13 +13,11 @@ function switchLanguage() {
       headline.textContent = "Hej";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      console.log("hej");
       text.innerHTML = `Mit navn er <strong>Katrine Bang Nielsen</strong>, og til daglig
       læser jeg til multimediedesigner på Københavns Erhvervsakademi
       <strong>(KEA)</strong>.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
-      console.log("hi");
       text.innerHTML = ` Jeg er på nuværende tidspunkt i gang med at tage valgfaget
       <strong>Frontend</strong>.`;
     });
@@ -36,7 +34,6 @@ function switchLanguage() {
     været henholdsvis <strong>dynamiske</strong> og
     <strong>statiske</strong>.`;
     document.querySelectorAll(".traits").forEach((text) => {
-      console.log("hi");
       text.textContent = `  Når det kommer til kodning er jeg en arbejdshest, som finder glæde
       i kompleksiteten ved problemløsning. Som person er jeg positiv,
       detaljeorienteret, udviklingsdrevet og smilende. Jeg elsker at
@@ -54,7 +51,6 @@ function switchLanguage() {
       <strong>KEA</strong>.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
-      console.log("hi");
       text.innerHTML = ` I'm currently taking the elective course
       <strong>Front-end</strong>.`;
     });
@@ -71,7 +67,6 @@ function switchLanguage() {
     been respectively <strong>dynamic</strong> and
     <strong>static</strong>.`;
     document.querySelectorAll(".traits").forEach((text) => {
-      console.log("hi");
       text.textContent = `  I'm a workaholic when it comes to coding, and I find joy in the complexity of problem solving. I am positive, detail-oriented, development-driven and friendly, and I'm always up for a challenge.`;
     });
   }

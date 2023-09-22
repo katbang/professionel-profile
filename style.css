@@ -45,7 +45,6 @@ img {
   justify-content: space-between;
 }
 button {
-  font-size: 20px;
   border: solid 3px black;
   cursor: pointer;
   color: black;
@@ -93,10 +92,11 @@ button {
     font-size: var(--size-s);
   }
   button {
+    position: relative;
     font-size: 27px;
     margin: 30px 30px 40px 0px;
-    aspect-ratio: 1/1;
     width: 55px;
+    height: 55px;
     text-align: center;
   }
   .grid_4-3-3 {
