@@ -189,8 +189,11 @@ ul.links {
   }
   .box3 .links {
     display: block;
-
-    margin: 15px 15px 0px 30px;
+    margin: 15px 5px 0px 10px;
+  }
+  ul .links {
+    display: block;
+    margin: 10px 15px 0px 0px;
   }
 }
 @media (min-width: 851px) {
