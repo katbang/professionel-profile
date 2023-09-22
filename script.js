@@ -60,7 +60,7 @@ function switchLanguage() {
       ".skills"
     ).innerHTML = `Through my work with ASTRO I have had a component-based
     approach to the design of my <strong>digital solutions</strong>.
-    As part of my studies, I have also worked with
+    As part of my studies I have also worked with
     <strong>databases</strong> like Restdb and SupaBase and I have got
     to know a different design processes such as Double
     Diamond and Design Thinking. The web solutions that I have developed
