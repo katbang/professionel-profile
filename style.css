@@ -195,11 +195,11 @@ ul.links {
   }
   ul .links {
     display: block;
-    margin: 10px 15px 0px 0px;
+    margin: 0px 15px 0px 0px;
   }
   .links li {
     color: black;
-    margin: 0px 15px 10px 0px;
+    margin: 0px 15px 15px 0px;
   }
 }
 @media (min-width: 851px) {
