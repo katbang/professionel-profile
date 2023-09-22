@@ -6,7 +6,6 @@ button.addEventListener("mousedown", switchLanguage);
 function switchLanguage() {
   const on = button.getAttribute("class");
   if (on == "on") {
-    // do this
     button.classList.remove("on");
     button.textContent = "En";
     document.querySelector("h1").textContent = "Multimediedesign- studerende";
@@ -44,7 +43,6 @@ function switchLanguage() {
       tage en udfordring op, og jeg har et stort gåpåmod.`;
     });
   } else {
-    // do that
     button.classList.add("on");
     button.textContent = "Da";
     document.querySelector("h1").textContent = "Multimedia Design student";
@@ -52,8 +50,7 @@ function switchLanguage() {
       headline.textContent = "Hi";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      console.log("hi");
-      text.innerHTML = `Hi my name is <strong>Katrine Bang Nielsen</strong>, and I'm studying Multimedia Design at
+      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I'm studying Multimedia Design at
       <strong>KEA</strong>.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
