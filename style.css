@@ -94,10 +94,10 @@ button {
   }
   button {
     font-size: 27px;
-    margin: 30px 30px 40px 50px;
-    max-height: 45px;
+    margin: 30px 30px 40px 0px;
+    max-height: 55px;
     width: 55px;
-    padding-right: 10%;
+    text-align: center;
   }
   .grid_4-3-3 {
     display: grid;

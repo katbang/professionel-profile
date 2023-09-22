@@ -1,4 +1,6 @@
 const button = document.querySelector("button");
+window.addEventListener("load", switchLanguage);
+button.classList.add("on");
 button.addEventListener("mousedown", switchLanguage);
 
 function switchLanguage() {
@@ -73,7 +75,7 @@ function switchLanguage() {
     <strong>static</strong>.`;
     document.querySelectorAll(".traits").forEach((text) => {
       console.log("hi");
-      text.textContent = `  I'm a workaholic when it comes to coding, and I find joy in the complexity of problem solving. As a person, I am positive, detail-oriented, development-driven and friendly. I'm always up for a challenge.`;
+      text.textContent = `  I'm a workaholic when it comes to coding, and I find joy in the complexity of problem solving. I am positive, detail-oriented, development-driven and friendly, and I'm always up for a challenge.`;
     });
   }
 }
