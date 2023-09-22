@@ -95,7 +95,7 @@ button {
   button {
     font-size: 27px;
     margin: 30px 30px 40px 0px;
-    max-height: 55px;
+    aspect-ratio: 1/1;
     width: 55px;
     text-align: center;
   }
