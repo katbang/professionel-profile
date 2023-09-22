@@ -39,6 +39,10 @@ function switchLanguage() {
       detaljeorienteret, udviklingsdrevet og smilende. Jeg elsker at
       tage en udfordring op, og jeg har et stort gåpåmod.`;
     });
+    document.querySelectorAll(".projects").forEach((text) => {
+      text.textContent =
+        "Herunder kan du klikke dig ind på tre af mine tidligere projekter:";
+    });
   } else {
     button.classList.add("on");
     button.textContent = "Da";
@@ -68,6 +72,9 @@ function switchLanguage() {
     <strong>static</strong>.`;
     document.querySelectorAll(".traits").forEach((text) => {
       text.textContent = `  I'm a workaholic when it comes to coding, and I find joy in the complexity of problem solving. I am positive, detail-oriented, development-driven and friendly, and I'm always up for a challenge.`;
+    });
+    document.querySelectorAll(".projects").forEach((text) => {
+      text.textContent = "Here are some links to my previous projects:";
     });
   }
 }
