@@ -66,10 +66,9 @@ function switchLanguage() {
     approach to the design of my <strong>digital solutions</strong>.
     As part of my studies I have also worked with
     <strong>databases</strong> like Restdb and SupaBase and I have got
-    to know a different design processes such as Double
-    Diamond and Design Thinking. The web solutions that I have developed
-    been respectively <strong>dynamic</strong> and
-    <strong>static</strong>.`;
+    to know different design processes such as Double
+    Diamond and Design Thinking. I have developed both <strong>dynamic</strong> and
+    <strong>static</strong> web interfaces.`;
     document.querySelectorAll(".traits").forEach((text) => {
       text.textContent = `  I'm a workaholic when it comes to coding, and I find joy in the complexity of problem solving. I am positive, detail-oriented, development-driven and friendly, and I'm always up for a challenge.`;
     });
