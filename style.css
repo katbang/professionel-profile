@@ -35,7 +35,7 @@ li {
   color: var(--bg-color);
   margin-bottom: 5px;
 }
-img {
+.grid_4-3-3 img {
   width: 100%;
   border: solid;
   border-width: 0px 0px 0px var(--border-width);
@@ -92,6 +92,17 @@ button {
 }
 ul.links {
   margin: 22px 20px 0px 0px;
+}
+.socials {
+  margin: 30px 20px 20px 0px;
+  display: flex;
+  gap: 1em;
+}
+.socials p {
+  margin-top: 18px;
+}
+.socials img {
+  width: 40px;
 }
 @media (max-width: 850px) {
   h1 {
@@ -200,6 +211,9 @@ ul.links {
   .links li {
     color: black;
     margin: 0px 15px 15px 0px;
+  }
+  .socials {
+    justify-content: center;
   }
 }
 @media (min-width: 851px) {
@@ -311,6 +325,9 @@ ul.links {
 
   .box3 .links {
     display: none;
+  }
+  .socials {
+    justify-content: flex-end;
   }
 }
 @media (min-width: 851px) and (max-width: 1200px) {
