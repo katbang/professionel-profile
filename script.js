@@ -23,6 +23,10 @@ function switchLanguage() {
     });
     document.querySelector(".box2 p").textContent =
       "På mit studie har jeg tilegnet mig færdigheder indenfor:";
+    document.querySelectorAll(".react").forEach((text) => {
+      text.innerHTML = `Jeg kommer derudover til at arbejde med <strong>REACT</strong> i
+        det her semester.`;
+    });
     document.querySelector(
       ".skills"
     ).innerHTML = `Jeg har gennem mit arbejde med ASTRO haft en komponentbaseret
@@ -60,6 +64,9 @@ function switchLanguage() {
     });
     document.querySelector(".box2 p").textContent =
       "I have the following skills:";
+    document.querySelectorAll(".react").forEach((text) => {
+      text.innerHTML = ` This semester I will also be working with <strong> REACT </strong>.`;
+    });
     document.querySelector(
       ".skills"
     ).innerHTML = `Through my work with ASTRO I have had a component-based

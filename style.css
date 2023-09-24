@@ -296,7 +296,10 @@ ul.links {
     color: var(--bg-color);
     font-size: var(--font-size);
     line-height: var(--l-height);
-    margin: 10% 25px 10px 25px;
+    margin: 10% 25px 5px 25px;
+  }
+  .box2 .react {
+    margin-top: 5%;
   }
   .box2 div {
     margin-top: 7%;
@@ -313,6 +316,9 @@ ul.links {
   .description:last-child {
     display: block;
     margin: 12px 25px 0px 35px;
+  }
+  .txtbox2 .react {
+    display: none;
   }
   .txtbox3 {
     margin-right: 38%;
@@ -365,12 +371,23 @@ ul.links {
     margin-top: 7%;
     margin-left: -3%;
   }
+
   .grid_4-6 p,
   .grid_4-6 li {
     font-size: var(--size-s);
   }
   .description:first-child {
     margin-top: 6%;
+  }
+  .box2 .react {
+    display: none;
+  }
+  .description:first-child {
+    margin: 4% 25px 0px 25px;
+  }
+  .txtbox2 .react {
+    display: block;
+    margin: 12px 25px 0px 25px;
   }
   .description:last-child {
     display: none;
