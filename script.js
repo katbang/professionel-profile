@@ -24,7 +24,7 @@ function switchLanguage() {
     document.querySelector(".box2 p").textContent =
       "På mit studie har jeg tilegnet mig færdigheder indenfor:";
     document.querySelectorAll(".react").forEach((text) => {
-      text.innerHTML = `På mit valfag har jeg kodet i <strong>REACT</strong> og<strong
+      text.innerHTML = `På mit valfag har jeg kodet i <strong>REACT</strong> og <strong
                 >Next.js</strong>`;
     });
     document.querySelector(
