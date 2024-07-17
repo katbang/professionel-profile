@@ -13,19 +13,19 @@ function switchLanguage() {
       headline.textContent = "Hej";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = `Mit navn er <strong>Katrine Bang Nielsen</strong>, og til daglig
-      læser jeg til multimediedesigner på Københavns Erhvervsakademi
-      <strong>(KEA)</strong>.`;
+      text.innerHTML = ` Mit navn er <strong>Katrine Bang Nielsen</strong>, og jeg er en
+              færdiguddannet multimediedesigner fra Københavns Erhvervsakademi
+              <strong>(KEA)</strong>,`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
-      text.innerHTML = ` Jeg er på nuværende tidspunkt i gang med at tage valgfaget
-      <strong>Frontend</strong>.`;
+      text.innerHTML = `  På min uddannelse har jeg haft valgfaget
+              <strong>Frontend</strong>.`;
     });
     document.querySelector(".box2 p").textContent =
       "På mit studie har jeg tilegnet mig færdigheder indenfor:";
     document.querySelectorAll(".react").forEach((text) => {
-      text.innerHTML = `Jeg kommer derudover til at arbejde med <strong>REACT</strong> i
-        det her semester.`;
+      text.innerHTML = `På mit valfag har jeg kodet i <strong>REACT</strong> og<strong
+                >Next.js</strong>`;
     });
     document.querySelector(
       ".skills"
