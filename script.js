@@ -8,7 +8,7 @@ function switchLanguage() {
   if (on == "on") {
     button.classList.remove("on");
     button.textContent = "En";
-    document.querySelector("h1").textContent = "Multimediedesign- studerende";
+    document.querySelector("h1").textContent = "Multimediedesigner";
     document.querySelectorAll("h2").forEach((headline) => {
       headline.textContent = "Hej";
     });
