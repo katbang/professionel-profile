@@ -55,7 +55,7 @@ function switchLanguage() {
       headline.textContent = "Hi";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I've in Multimedia Design from
+      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I've gratuated in Multimedia Design from
       <strong>KEA</strong>.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
