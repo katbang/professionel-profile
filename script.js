@@ -50,22 +50,22 @@ function switchLanguage() {
   } else {
     button.classList.add("on");
     button.textContent = "Da";
-    document.querySelector("h1").textContent = "Multimedia Design student";
+    document.querySelector("h1").textContent = "Multimedia Design graduate";
     document.querySelectorAll("h2").forEach((headline) => {
       headline.textContent = "Hi";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I'm studying Multimedia Design at
+      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I've in Multimedia Design from
       <strong>KEA</strong>.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
-      text.innerHTML = ` I'm currently taking the elective course
+      text.innerHTML = ` As part of my studies I've taken the elective course
       <strong>Front-end</strong>.`;
     });
     document.querySelector(".box2 p").textContent =
       "I have the following skills:";
     document.querySelectorAll(".react").forEach((text) => {
-      text.innerHTML = ` This semester I will also be working with <strong> REACT </strong>.`;
+      text.innerHTML = ` During my elective course I've programmed in <strong> REACT </strong> and <strong> Next.js </strong>.`;
     });
     document.querySelector(
       ".skills"
