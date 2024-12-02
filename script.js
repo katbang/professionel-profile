@@ -8,28 +8,23 @@ function switchLanguage() {
   if (on == "on") {
     button.classList.remove("on");
     button.textContent = "En";
-    document.querySelector("h1").textContent = "Multimediedesigner";
+    document.querySelector("h1").textContent = "Frontend udvikler";
     document.querySelectorAll("h2").forEach((headline) => {
       headline.textContent = "Hej";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = ` Mit navn er <strong>Katrine Bang Nielsen</strong>, og jeg er en
-              færdiguddannet multimediedesigner fra Københavns Erhvervsakademi
-              <strong>(KEA)</strong>,`;
+      text.innerHTML = ` Mit navn er <strong>Katrine Bang Nielsen</strong>, og jeg er uddannet multimediedesigner og har det seneste år arbejdet intensivt som Frontend Developer – især med React, som jeg har brugt stort set dagligt.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
       text.innerHTML = `  På min uddannelse har jeg haft valgfaget
               <strong>Frontend</strong>.`;
     });
-    document.querySelector(".box2 p").textContent =
-      "På mit studie har jeg tilegnet mig færdigheder indenfor:";
+    document.querySelector(".box2 p").textContent = "På mit studie har jeg tilegnet mig færdigheder indenfor:";
     document.querySelectorAll(".react").forEach((text) => {
       text.innerHTML = `På mit valfag har jeg kodet i <strong>REACT</strong> og <strong
                 >Next.js</strong>`;
     });
-    document.querySelector(
-      ".skills"
-    ).innerHTML = `Jeg har gennem mit arbejde med ASTRO haft en komponentbaseret
+    document.querySelector(".skills").innerHTML = `Jeg har gennem mit arbejde med REACT haft en komponentbaseret
     tilgang til designet af mine <strong>digitale løsninger</strong>.
     Som en del af mit studie har jeg derudover arbejdet med
     <strong>databaser</strong> som Restdb og SupaBase, og jeg har fået
@@ -44,32 +39,27 @@ function switchLanguage() {
       tage en udfordring op, og jeg har et stort gåpåmod.`;
     });
     document.querySelectorAll(".projects").forEach((text) => {
-      text.textContent =
-        "Herunder kan du klikke dig ind på tre af mine tidligere projekter:";
+      text.textContent = "Herunder kan du klikke dig ind på tre af mine tidligere projekter:";
     });
   } else {
     button.classList.add("on");
     button.textContent = "Da";
-    document.querySelector("h1").textContent = "Multimedia Design graduate";
+    document.querySelector("h1").textContent = "Frontend developer";
     document.querySelectorAll("h2").forEach((headline) => {
       headline.textContent = "Hi";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I've gratuated in Multimedia Design from
-      <strong>KEA</strong>.`;
+      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I hold a degree in Multimedia Design and have spent the past year working intensively as a Frontend Developer – primarily with React, which I have used almost daily.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
       text.innerHTML = ` As part of my studies I've taken the elective course
       <strong>Front-end</strong>.`;
     });
-    document.querySelector(".box2 p").textContent =
-      "I have the following skills:";
+    document.querySelector(".box2 p").textContent = "I have the following skills:";
     document.querySelectorAll(".react").forEach((text) => {
       text.innerHTML = ` During my elective course I've programmed in <strong> REACT </strong> and <strong> Next.js </strong>.`;
     });
-    document.querySelector(
-      ".skills"
-    ).innerHTML = `Through my work with ASTRO I have had a component-based
+    document.querySelector(".skills").innerHTML = `Through my work with REACT I have had a component-based
     approach to the design of my <strong>digital solutions</strong>.
     As part of my studies I have also worked with
     <strong>databases</strong> like Restdb and SupaBase and I have got
