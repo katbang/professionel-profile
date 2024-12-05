@@ -13,7 +13,7 @@ function switchLanguage() {
       headline.textContent = "Hej";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = ` Mit navn er <strong>Katrine Bang Nielsen</strong>, og jeg er uddannet multimediedesigner og har det seneste år arbejdet intensivt som Frontend Developer – især med React, som jeg har brugt stort set dagligt.`;
+      text.innerHTML = ` Mit navn er <strong>Katrine Bang Nielsen</strong>, og jeg er uddannet multimediedesigner og har det seneste år arbejdet intensivt som Full-stack Developer – især med React Typescript og Python, som jeg har brugt stort set dagligt.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
       text.innerHTML = `  På min uddannelse har jeg haft valgfaget
@@ -49,7 +49,7 @@ function switchLanguage() {
       headline.textContent = "Hi";
     });
     document.querySelectorAll(".about").forEach((text) => {
-      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I hold a degree in Multimedia Design and have spent the past year working intensively as a Frontend Developer – primarily with React, which I have used almost daily.`;
+      text.innerHTML = `My name is <strong>Katrine Bang Nielsen</strong>, and I hold a degree in Multimedia Design and have spent the past year working intensively as a Full-stack Developer – primarily with React Typescript and Python, which I have used almost daily.`;
     });
     document.querySelectorAll(".add-on").forEach((text) => {
       text.innerHTML = ` As part of my studies I've taken the elective course
